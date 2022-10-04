@@ -1,5 +1,5 @@
 -- Airport Management System --
--- DB Design Fall 2016--
+-- DB Design Fall 2016--sf
 
 CREATE TABLE CITY
 (CNAME VARCHAR2(15) NOT NULL,
@@ -9,7 +9,7 @@ PRIMARY KEY(CNAME));
 
 
 -- Insering values of Table: CITY--
-INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES('Louisville','Kentucky','United States');
+INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES('Louisvlle','Kentucky','United States');
 INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES ('Chandigarh','Chandigarh','India');
 INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES ('Fort Worth','Texas','United States');
 INSERT INTO CITY (CNAME, STATE, COUNTRY) VALUES('Delhi','Delhi','India');
